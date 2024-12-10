@@ -1,0 +1,57 @@
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Ansible-related files
+*.retry
+*.vault
+*.cfg
+*.inventory
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+terraform.tfvars.json
+crash.log
+override.tf
+override.tf.json
+.terraform.lock.hcl
+.terraform/
+
+# Scripts cache
+*.pyc
+__pycache__/
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.out
+*.swp
+*.swo
+*.save
+*.~ 
+
+# Sensitive data
+*.key
+*.pem
+*.crt
+*.conf
+
+# Editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# System-generated archives
+*.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Node modules (if any)
+node_modules/
